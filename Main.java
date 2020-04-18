@@ -35,13 +35,16 @@ class Main {
     
     //for 문 구구단 8단
 
+  /*
     for ( int i = 1 ; i <= 9 ; i++){
 
       int j = 8;
       System.out.println( j + " x " + i + " = " + j * i);
       
     }
+  */
 
+  /*
     //for 문 (2중) 구구단 2~9단 (컴퓨터는 위에서 아래로 읽으니 조심!)
 
   for (int x = 1 ; x <= 9 ; x++){ 
@@ -50,8 +53,22 @@ class Main {
 
     for ( int i = 1 ; i <= 9 ; i++){
 
-      System.out.println( x + " x " + i + " = " + x * i);   
+      //System.out.println( x + " x " + i + " = " + x * i); 
+      System.out.printf("%d * %d = %d\n", x, i, x*i);
     }
   }
+  */
+
+
+  int [] arr;
+  arr = new int[3];
+  arr[0] = 10;
+  arr[1] = 20;
+  arr[2] = 30;
+
+  int sum = arr[0] + arr[1] + arr[2];
+  System.out.printf("sum : %d\n", sum);
+  System.out.printf("arr.length : %d\n", arr.length);
+
   }
 }
