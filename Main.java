@@ -57,9 +57,10 @@ class Main {
       System.out.printf("%d * %d = %d\n", x, i, x*i);
     }
   }
-  */
+  */  
 
-
+  /*
+  // arry 연습
   int [] arr;
   arr = new int[3];
   arr[0] = 10;
@@ -69,6 +70,20 @@ class Main {
   int sum = arr[0] + arr[1] + arr[2];
   System.out.printf("sum : %d\n", sum);
   System.out.printf("arr.length : %d\n", arr.length);
+*/
 
+
+  int [] arr;
+  arr = new int[5];
+  arr[0] = 1;
+  arr[1] = 2;
+  arr[2] = 3;
+  arr[3] = 4;
+  arr[4] = 5;
+
+  int sum = arr[0] + arr[1] + arr[2] + arr[3] + arr[4];
+
+  System.out.printf("sum : %d\n", sum);
+ 
   }
 }
