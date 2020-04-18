@@ -17,11 +17,11 @@ class Main {
     // 조건 : 2중 while문 사용
     
     
-    int r = 0;
+    int r = 1;
     int i = 1;
 
     while ( r <= 10 ){  
-        
+          System.out.printf( "i : %d\n", r);
         while ( i <= 3 ){
             System.out.println( i );
             i++;
